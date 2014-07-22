@@ -1,0 +1,110 @@
+How does it work?
+
+1.	What does the open-source code do?
+This free, open source software code, provided by the generosity of Intuit, allows app developers to easily add consumer-friendly privacy screens to their app. The screens are meant to supplement—not replace—traditional privacy policies. 
+
+2.	What do the short-form privacy notices tell the app user?
+The screens answer two important questions for your users: 
+
+(1) What type of data does this app collect?
+(2) What types of third party companies does this app share that data with? 
+
+By installing the short-form privacy notice, you can clearly and simply communicate with your users the basic information about your app’s data practices. 
+
+3.	How do I get started?
+Visit AppAlliance.org or GitHub (INSERT URL) and follow the instructions. The code will help you generate customized, consumer-friendly privacy notices in just a few steps. 
+
+4.	Do I need to install anything?
+Yes, simply go to GitHub [put URL here] and download the free, open source code provided through the generosity of Intuit.
+
+5.	Do I have to be a member of the Application Developers Alliance to use this code?
+No, but you should join anyway. It’s free for individual developers, and the benefits of membership are substantial. To become a member, go to http://devsbuild.it/join.
+
+6.	How much do the short-form privacy notices cost?
+The short-form notices are free of charge. Inuit has offered the code through an open source license.
+
+7.	Will this affect my app’s speed and/or functionality? 
+There will be very little impact on app speed and no impact on functionality. The code creates a standalone html screen that should not affect the core application. 
+
+8.	Which platforms are supported? 
+The software code provided currently supports both the Apple iOS and Google Android systems.  
+
+9.	Will the code support more platforms in the future?
+Hopefully. We hope that our app developer community will modify and improve this open source code and share those additions with the broader app developer community so it becomes accessible in more platforms. We all believe that developers should help developers whenever possible, so we encourage you to strengthen and improve this code. 
+
+10.	Am I required to offer my modifications to this software code to other app developers?
+No. You may – and we encourage you to – share any subsequent modifications to the code in a similar open source manner.  However, your downloading and use of this code does not impose any licensing requirement that mandates your subsequent sharing.  
+
+11.	What are the minimum system requirements?
+Any modern desktop or mobile browser or Internet Explorer 8 or above. 
+
+12.	Will this add to the number of times new users’ must click to operate my app?
+No, unless you decide to push your users through interaction with these privacy transparency screens. The decision is up to you.
+
+13.	Does Intuit get my users’ data? Will Intuit know who my users are?
+No. Neither Intuit nor the Application Developers Alliance obtains any data from your installation of this code. Nor will any other company or partner obtain any data from your use of this code in your app unless you build that functionality and sharing. 
+
+14.	Will the Application Developers Alliance or Intuit support this code in the future? What if I have questions about the code, its operation, or find a bug? 
+The code has been vigorously tested by Intuit, and we believe—but do not and cannot represent or guarantee—that it is free of bugs. It is up to you and app developers everywhere to offer open source improvements, modifications, and updates of the code. Neither the Application Developers Alliance nor Intuit will be supporting the code after its release. 
+
+
+Why was it created?
+
+1. Why did Intuit and the Application Developers Alliance create the short-form privacy notices?
+The short-form privacy notices enable developers to comply with the Mobile App Privacy Voluntary Code of Conduct created by U.S. government-hosted multistakeholder talks on mobile app privacy. 
+
+2. What is the Mobile App Privacy Voluntary Code of Conduct?
+It is a voluntary code of conduct for mobile app developers. It requires apps to notify consumers of what information they collect and with what third-parties that information is shared. 
+
+2. Where did the Voluntary Code of Conduct come from?
+The Code of Conduct was developed through U.S. government-hosted multistakeholder talks on mobile app privacy. The talks were convened by the National Telecommunications and Information Administration (NTIA) at the U.S. Department of Commerce a the direction of President Obama. Read more about the process at: http://www.ntia.doc.gov/other-publication/2013/privacy-multistakeholder-process-mobile-application-transparency
+
+3. Who made this Code of Conduct?
+The U.S. government-hosted talks included stakeholders representing virtually all aspects of the mobile app industry working alongside privacy, civil liberties, and consumer advocacy organizations. These groups reached consensus and wrote the Code of Conduct.
+
+4. What does the Code of Conduct require from apps?
+The Code of Conduct requires mobile apps to notify consumers of the types of information each app collects, and the entities with which they share that information.
+
+The Code of Conduct requires apps to provide notification in a one- or two-screen display that clearly communicates the app’s collection and sharing practices to consumers.
+
+Apps must notify consumers if they collect data in the following categories:
+• Biometrics
+• Browser history
+• Phone or text log
+• Contacts
+• Financial information
+• Health, medical or therapy information
+• Location
+• User files
+
+Apps must notify consumers if they share user-specific data with a third-party entity from the following categories:
+• Ad Networks
+• Carriers
+• Consumer Data Resellers
+• Data Analytics Providers
+• Government Entities
+• Operating Systems and Platforms
+• Other Apps
+• Social Networks
+
+5. Who should implement a short-form, at-a-glance privacy notice?
+We recommend that all app developers and publishers implement a short-form notice in each of their apps. Building consumer trust and confidence regarding an app’s data collection and third party data sharing may increase customers’ desire to choose to use your app over those of competitors and may increase the frequency of a customer’s usage of your app.
+
+6. Where and when does the short-form privacy notice need to be displayed?
+An app may display the privacy notice to consumers in a variety of places: before download, after download, or after several clicks through the application. The notice should be a one or two-screen display. 
+
+7. Is the Code of Conduct mandatory or voluntary?
+The Code of Conduct is voluntary. However, once an app developer or company implements the Code of Conduct, they must comply with the Code of Conduct’s requirements. 
+
+8. If I implement a short-form notice as described in the Code of Conduct, do I still need to have a privacy policy?
+Yes, the short-form notices are intended to supplement—not replace—traditional long-form privacy policies, which are legally required in many countries and states. If your app does have a long-form privacy policy, the Code of Conduct requires that the short-form notice provide a link to users to the long-form privacy policy. Consult your legal counsel for further information about your privacy obligations for any market that your app may serve.
+
+9. Do I have to use this open-source code to comply with the Voluntary Code of Conduct?
+No. You can use this open-source code offered free of charge or write your own software code to implement your preferred solution. 
+
+10. Does a short-form privacy notice ever need to be updated?
+Yes. If you make any changes to your app’s data collection or sharing practices, you must update your short-form privacy notice promptly. Additionally, if you make any material changes to your privacy practices you may be required to notify consumers who already use your app and obtain their consent.
+
+11. How can I learn more about the Voluntary Code of Conduct?
+Interested app developers can read more about the multistakeholder process here: http://www.ntia.doc.gov/other-publication/2013/privacy-multistakeholder-process-mobile-application-transparency. You can also read the code here (pdf): http://www.ntia.doc.gov/files/ntia/publications/july_25_code_draft.pdf. 
+
