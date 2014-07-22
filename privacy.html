@@ -1,0 +1,105 @@
+<!--Copyright (c) 2014 Intuit, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="headerContent">
+            <a id="backLink" hidden="hidden" class="pull-left" href="javascript: history.go(-1)">Back</a>
+            <span class="headline mediumFont"></span>
+        </div>
+    </div>
+    <div class="contentDetails container">
+        <div class="headerImage"></div>
+        <div class="privacyMessage">
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#dataCollectedContent" id="dataCollectedLink" data-toggle="tab"></a></li>
+            <li class="separator"></li>
+            <li><a href="#dataSharedContent" id="dataSharedLink" data-toggle="tab"></a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="dataCollectedContent">
+                <div id="collectedItemsWrapper"></div>
+
+                <div class="notCollected">
+                    <div class="title" id="notCollectedHeader"></div>
+                    <div class="spacer"></div>
+                    <div id="notCollectedItemsWrapper"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dataSharedContent">
+                <div id="sharedItemsWrapper"></div>
+
+                <div class="notCollected">
+                    <div class="title" id="notSharedHeader"></div>
+                    <div class="spacer"></div>
+                    <div id="notSharedItemsWrapper"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerContent">
+            <a href="" id="footerLink" target="_blank">Privacy</a>
+        </div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="assets/js/main-min.js"></script>
+<script>
+
+    $(function () {
+
+        loadConfiguration().then(
+                function () {
+                    // Add listener on the individual items to expand/collapse the item details.
+                    $(".contentItem").on("click.toggleExpandState", function () {
+                        $(this).toggleClass("expanded");
+                    });
+
+                    // Detect if device is Android, modify the font-family if it is.
+                    if (isMobile.Android()) {
+                        $("body").css("font-family", "'Roboto', serif");
+                    }
+                }
+        );
+
+    });
+
+</script>
+</body>
+</html>

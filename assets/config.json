@@ -1,0 +1,120 @@
+{
+    "pageOptions" : {
+        "headerImage" : "http://placehold.it/250x250",
+        "headerColor" : "#F3F8FE",
+        "headline" : "Privacy Policy",
+        "subHeading" : "<b>We will not</b>, without your permission, sell, publish or share information you entrust to us that identifies you or any person.",
+        "footerLink" : "Full Privacy",
+        "footerLinkURL" : "",
+        "collectionSectionHeader" : "Data collected",
+        "doNotCollectSectionHeader" : "Data not collected",
+        "sharedSectionHeader" : "Data shared",
+        "dataNotSharedSectionHeader" : "Data not shared"
+    },
+    "collected" : [
+        {
+            "element" : "Financial information",
+            "why" : "To manage your business.",
+            "class" : "",
+            "moreInfo" : ["Credit, bank, tax, and other financial data you use to stay productive. Only with your permission."]
+        }
+        ,
+        {
+            "element" : "Contact information",
+            "why" : "To stay connected.",
+            "class" : "",
+            "moreInfo" : ["Address, phone, email, and other contact information you use to communicate. Only with your permission."]
+        }
+        ,
+        {
+            "element" : "Location information",
+            "why" : "To find your customers.",
+            "class" : "",
+            "moreInfo" : ["Past and current locations used to find and track expenses and receipts. Only with your permission."]
+        }
+    ],
+    "notCollected" : [
+        {
+            "element" : "Biometrics",
+            "why" : "We <b>do not</b> collect this.",
+            "class" : "",
+            "moreInfo" : ["<i>Biometrics</i> includes your physical information such as fingerprints, facial recognition, signatures, and voice."]
+        },
+        {
+            "element" : "Browser history",
+            "why" : "We <b>do not</b> collect this.",
+            "class" : "",
+            "moreInfo" : ["<i>Browser history</i> is a list of websites you visit."]
+        },
+        {
+            "element" : "Phone or text logs",
+            "why" : "We <b>do not</b> collect this.",
+            "class" : "",
+            "moreInfo" : ["<i>Phone or text logs</i> are calls or texts you make or receive."]
+        },
+        {
+            "element" : "Health, medical, or therapy info",
+            "why" : "We <b>do not</b> collect this.",
+            "class" : "",
+            "moreInfo" : ["<i>Health, medical, or therapy information</i> includes your health claims and information you use to measure health and wellness."]
+        },
+        {
+            "element" : "User files",
+            "why" : "We <b>do not</b> collect this.",
+            "class" : "",
+            "moreInfo" : ["<i>User files</i> are files containing your content, such as calendar, photos, text, or video."]
+        }
+    ],
+    "shared" : [
+        {
+            "element" : "Government entities",
+            "why" : "Only when required by law.",
+            "class" : "",
+            "moreInfo" : ["We share information with <i>government entities</i> <strong>only</strong> when required by law or expressly permitted in an emergency."]
+        }
+    ],
+    "notShared" : [
+        {
+            "element" : "Carriers",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Carriers</i> provide mobile connections."]
+        },
+        {
+            "element" : "Ad networks",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Ad networks</i> display ads to you through apps."]
+        },
+        {
+            "element" : "Consumer data resellers",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Consumer data resellers</i> sell consumer information to other companies for multiple purposes."]
+        },
+        {
+            "element" : "Data analytics providers",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Data analytics providers</i> collect and analyze your data."]
+        },
+        {
+            "element" : "Operating systems and platforms",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Operating systems and platforms</i> are companies that power devices and app stores."]
+        },
+        {
+            "element" : "Other apps",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Other apps</i> are apps are other companies you may not currently interact with."]
+        },
+        {
+            "element" : "Social networks",
+            "why" : "We <b>do not</b> share your personal information with them.",
+            "class" : "",
+            "moreInfo" : ["<i>Social networks</i> are companies that connect individuals around common interests and facilitate sharing."]
+        }
+    ]
+}
