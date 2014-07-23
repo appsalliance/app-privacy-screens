@@ -5,7 +5,7 @@ Easy-to-install mobile app privacy screens that provide enhanced transparency fo
 App developers want to inform consumers clearly and accurately, but traditional privacy policies written in legalese are difficult for consumers to understand. The Application Developers Alliance and its member Intuit have partnered to provide open source code for consumer-friendly short-form privacy notices--simple, easily understandable screens that clearly inform consumers what data the app is collecting and with whom the data is shared. The screens supplement traditional privacy policies by summarizing important information in a consumer-friendly design. 
 
 ## Instructions
-Sample screenshots from Intuit's Quickbooks, lawyer spreadsheet and FAQs can be found in supporting docs folder.
+Sample screenshots from Intuit's Quickbooks, legal questionnaire and FAQs can be found in supporting_docs folder.
 
 * Download the entire code/configuration package.
 * For the lawyers/legal team:
