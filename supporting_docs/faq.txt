@@ -5,17 +5,16 @@ This free, open source software code, provided by the generosity of Intuit, allo
 
 2.	What do the short-form privacy notices tell the app user?
 The screens answer two important questions for your users: 
-
 (1) What type of data does this app collect?
 (2) What types of third party companies does this app share that data with? 
 
 By installing the short-form privacy notice, you can clearly and simply communicate with your users the basic information about your app’s data practices. 
 
 3.	How do I get started?
-Visit AppAlliance.org or GitHub (INSERT URL) and follow the instructions. The code will help you generate customized, consumer-friendly privacy notices in just a few steps. 
+Visit AppAlliance.org or GitHub (https://github.com/appsalliance/privacynotices/) and follow the instructions. The code will help you generate customized, consumer-friendly privacy notices in just a few steps. 
 
 4.	Do I need to install anything?
-Yes, simply go to GitHub [put URL here] and download the free, open source code provided through the generosity of Intuit.
+Yes, simply go to GitHub [https://github.com/appsalliance/privacynotices/] and download the free, open source code provided through the generosity of Intuit.
 
 5.	Do I have to be a member of the Application Developers Alliance to use this code?
 No, but you should join anyway. It’s free for individual developers, and the benefits of membership are substantial. To become a member, go to http://devsbuild.it/join.
