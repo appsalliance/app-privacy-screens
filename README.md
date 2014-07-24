@@ -7,6 +7,8 @@ App developers want to inform consumers clearly and accurately, but traditional 
 ## Instructions
 Sample screenshots from Intuit's Quickbooks, legal questionnaire and FAQs can be found in supporting_docs folder.
 
+We recommend that you host this on a web server so that you may update your privacy policy to be able to change it dynamically if your data practices change.
+
 * Download the entire code/configuration package.
 * For the lawyers/legal team:
   * Find the questionnaire and fill in the appropriate responses.
